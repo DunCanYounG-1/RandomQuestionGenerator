@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(\"C:\\Users\\A\\AppData\\Local\\Programs\\Python\\Python313\\python.exe\" -c \"from PyQt6.QtWidgets import QApplication; print(''PyQt6 OK'')\")",
+      "Bash(\"C:\\Users\\A\\AppData\\Local\\Programs\\Python\\Python313\\python.exe\" -c \"\nfrom src.ui import MainWindow\nfrom src.core import MDParser, QuestionBank, DrawEngine\nfrom src.storage import Database, Exporter\nprint(''All modules imported successfully!'')\n\")",
+      "Bash(\"C:\\Users\\A\\AppData\\Local\\Programs\\Python\\Python313\\python.exe\" -c \"\nfrom src.ui import MainWindow\nfrom src.core import MDParser, QuestionBank, DrawEngine, RosterManager\nfrom src.storage import Database, Exporter\nprint(''All modules imported successfully!'')\n\")",
+      "Bash(dir /B /S)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
